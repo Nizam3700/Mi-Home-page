@@ -85,17 +85,17 @@ pre{
     /* home scroll bar   */
     .text{
         position: absolute;
-        top: 3vh; left: 5vw;
+        top: 5vh; left: 5vw;
         z-index: 1;
     }
     h5{
-        font-size: 30px;
+        font-size: 20px;
     }
     h2{
-        font-size: 55px;
+        font-size: 30px;
     }
     p{
-        font-size: 25px;
+        font-size: 15px;
     }
     
     /* Offer section  */
