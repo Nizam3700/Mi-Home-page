@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* nav bar start  */
 .container-fluid img{
     height: 6vh;
@@ -79,28 +80,58 @@ pre{
     text-align: center;
 }
 
-/* responsive for moblie  */
-@media screen and (max-width: 900px) {
-
+@media screen and (min-width: 350px){
+    
     /* home scroll bar   */
     .text{
-    position: absolute;
-    top: 2vh; left: 5vw;
-    z-index: 1;
+        position: absolute;
+        top: 3vh; left: 5vw;
+        z-index: 1;
     }
     h5{
-    font-size: 20px;
+        font-size: 30px;
     }
     h2{
-    font-size: 30px;
+        font-size: 55px;
     }
     p{
-    font-size: 15px;
+        font-size: 25px;
     }
-
+    
     /* Offer section  */
     .card{
         display: inline-flex;
         flex-direction: column;
+        position: relative;
+        top: 25px;
     }
 }
+
+/* larger screen  */
+@media only screen and (min-width: 900px){
+    
+    /* home scroll bar   */
+    .text{
+        position: absolute;
+        top: 3vh; left: 5vw;
+        z-index: 1;
+    }
+    h5{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+    
+    /* Offer section  */
+    .card{
+        display: inline-flex;
+        flex-direction: column;
+        position: relative;
+        top: 25px;
+    }
+}
+
