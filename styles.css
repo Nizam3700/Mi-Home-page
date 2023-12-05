@@ -80,7 +80,7 @@ pre{
     text-align: center;
 }
 
-@media screen and (min-width: 350px){
+@media screen and (max-width: 500px){
     
     /* home scroll bar   */
     .text{
