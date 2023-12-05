@@ -11,20 +11,7 @@
 }
 
 /* main start  */
-.text{
-    position: absolute;
-    top: 15vh; left: 15vw;
-    z-index: 2;
-}
-h5{
-    font-size: 30px;
-}
-h2{
-    font-size: 55px;
-}
-p{
-    font-size: 25px;
-}
+
 .images{
     position: absolute;
     top: 8vh; left: 3vw;
@@ -80,12 +67,34 @@ pre{
     text-align: center;
 }
 
-@media screen and (max-width: 900px){
+
+/* responsive for large upto 768px  */
+@media only screen and (min-width: 768px){
     
     /* home scroll bar   */
     .text{
         position: absolute;
-        top: 10vh; left: 5vw;
+        top: 15vh; left: 15vw;
+        z-index: 1;
+    }
+    h5{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 55px;
+    }
+    p{
+        font-size: 25px;
+    }
+    
+}
+
+/* responsive for smaller upto 767px  */
+@media only screen and (max-width: 767px) {
+    
+    .text{
+        position: absolute;
+        top: 0vh; left: 5vw;
         z-index: 1;
     }
     h5{
@@ -97,13 +106,10 @@ pre{
     p{
         font-size: 15px;
     }
-    
     /* Offer section  */
     .card{
         display: inline-flex;
         flex-direction: column;
-        position: relative;
-        top: 25px;
     }
 }
 
